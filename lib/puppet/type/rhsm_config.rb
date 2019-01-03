@@ -261,9 +261,9 @@ EOD
     munge do |value|
       case value
       when %r{yes}i, %r{true}i, '1', 1, true, :true, :yes
-        '1'
+        1
       when %r{no}i, %r{false}i, '0', 0, false, :false, :no
-        '0'
+        0
       else
         nil
       end
@@ -277,9 +277,9 @@ EOD
     munge do |value|
       case value
       when %r{yes}i, %r{true}i, '1', 1, true, :true, :yes
-        '1'
+        1
       when %r{no}i, %r{false}i, '0', 0, false, :false, :no
-        '0'
+        0
       else
         nil
       end
@@ -293,9 +293,9 @@ EOD
     munge do |value|
       case value
       when %r{yes}i, %r{true}i, '1', 1, true, :true, :yes
-        '1'
+        1
       when %r{no}i, %r{false}i, '0', 0, false, :false, :no
-        '0'
+        0
       else
         nil
       end
@@ -309,9 +309,9 @@ EOD
     munge do |value|
       case value
       when %r{yes}i, %r{true}i, '1', 1, true, :true, :yes
-        '1'
+        1
       when %r{no}i, %r{false}i, '0', 0, false, :false, :no
-        '0'
+        0
       else
         nil
       end
